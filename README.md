@@ -7,11 +7,12 @@ This is a MAC Interface (based on Xbee S1 Radios) for the SAM4S Xplained Pro. Mo
 
 <p align="center">
   <img src="https://github.com/rromanotero/xbee_mac_interface/blob/master/architecture.png" width="540"/>
-  <p align="center">It's supposed to be a "wireless" mug!</p>
 </p>
 
 
 ## Setting up the radio
+
+([This is a video](https://youtu.be/72OjWygrqdo) showing the setting up steps.)
 
 Using the XCTU utility make the following changes to the Xbee S1 radio:
 
@@ -22,14 +23,12 @@ Using the XCTU utility make the following changes to the Xbee S1 radio:
 
 Then plug the radio’s Rx, Tx, Vcc and Gnd pins to the SAM4S Xpro board. Because the software uses USART1 you will need to use Rx (Pin 13), Tx (Pin 14), Gnd (Pin 19), and Vcc (Pin 20) in either EXT1 or EXT2. Alternatively, if you have an IO1 XPlained Pro, you could use the pins labeled Rx, Tx, Gnd, and VTG in the IO1 board. (Not sure why these pins? See here or check the SAM4s Xpro User Guide.)
 
-[This is a video](https://youtu.be/72OjWygrqdo) showing the setting up steps.
-
 
 ## Demos
 
-There are three demos. One  demonstrating unicast messages, and one demonstrating the use of RSSI. The unicasting demo consists of two nodes. Both send a 1-byte asynchronous message to each other approximately every half a second. Whenever a message is received, they toggle their respective LEDs. Likewise, the RSSI demo consists of two nodes. They both blink their LEDs depending on the RSSI of the last message received.
+([This is a video](https://youtu.be/7ae6xg3zPZA) of the demos.)
 
-[This is a video](https://youtu.be/7ae6xg3zPZA) of the demos.
+There are three demos. One  demonstrating unicast messages, and one demonstrating the use of RSSI. The unicasting demo consists of two nodes. Both send a 1-byte asynchronous message to each other approximately every half a second. Whenever a message is received, they toggle their respective LEDs. Likewise, the RSSI demo consists of two nodes. They both blink their LEDs depending on the RSSI of the last message received.
 
 
 ## ASF and standalone
