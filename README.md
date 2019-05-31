@@ -6,7 +6,7 @@ This is a MAC Interface (based on Xbee S1 Radios) for the SAM4S Xplained Pro. Mo
 ## Architecture 
 
 <p align="center">
-  <img src="https://github.com/rromanotero/minios/blob/master/logo.png" width="290"/>
+  <img src="https://github.com/rromanotero/xbee_mac_interface/blob/master/architecture.png" width="290"/>
   <p align="center">It's supposed to be a "wireless" mug!</p>
 </p>
 
