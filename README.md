@@ -43,7 +43,7 @@ This is a bare-metal implementation, so do not access the radio concurrently! Me
 
 ## Porting
 
-To port to a different platform rewriting of xbee_cpu and xbee_uart modules should suffice. All data types used are stdint. h types (e.g. uint8_t).
+To port to a different platform rewriting of xbee_cpu and xbee_uart modules should suffice. 
 
 
 ## Limitations
