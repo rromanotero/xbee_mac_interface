@@ -33,7 +33,7 @@ There are three demos. One  demonstrating unicast messages, and one demonstratin
 
 ## ASF and standalone
 
-There's a stand alone version and an atmel studio. The stand alone version need to be ported for it to work first (see porting below). The atmel studio version I've tested it for ASFv3.34.1, but it should work for newer versions (the ASF doesn't changes that much, but hey who knows!).
+There's a stand alone version and an atmel studio version. The stand alone version need to be ported for it to work first (see porting below). The atmel studio version should work as is, I've tested it for ASFv3.34.1. It should work for newer versions (the ASF doesn't changes that much, but hey who knows!).
 
 
 ## Concurrency
