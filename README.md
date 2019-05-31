@@ -1,12 +1,11 @@
-# xbee_mac_interface
-Xbee MAC Interface for SAM4S Xplained Pro
+# Xbee MAC Interface for SAM4S Xplained Pro
 
 This is a MAC Interface (based on Xbee S1 Radios) for the SAM4S Xplained Pro. More than Xbee drivers, or an Xbee library, it is an actual IEEE 802.15.4 MAC interface. I call it interface, because the entire MAC functionality is handled in hardware from within the Xbee. I simply wrote drivers for the Xbee, and added a MAC and message abstractions.
 
 ## Architecture 
 
 <p align="center">
-  <img src="https://github.com/rromanotero/xbee_mac_interface/blob/master/architecture.png" width="290"/>
+  <img src="https://github.com/rromanotero/xbee_mac_interface/blob/master/architecture.png" width="480"/>
   <p align="center">It's supposed to be a "wireless" mug!</p>
 </p>
 
